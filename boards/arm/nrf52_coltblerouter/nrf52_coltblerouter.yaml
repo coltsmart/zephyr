@@ -1,0 +1,12 @@
+identifier: nrf52_coltblerouter
+name: nRF52-Coltblerouter
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+ram: 64
+flash: 512
+supported:
+  - adc
+  - nvs
